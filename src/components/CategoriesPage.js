@@ -7,7 +7,7 @@ const CategoriesPage = () => {
   const status = useSelector((state) => state.categories);
   const dispatch = useDispatch();
   return (
-    <div className="pt-12">
+    <div className="Categories">
       <button
         type="button"
         className={categories.btn}
